@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Website pribadi Adryan Nur Arif, mahasiswa Teknik Informatika yang tertarik pada teknologi.">
+    <title>Website Pribadi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpeg" href="gambar/onana.jpg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-image: url('gambar/gambar bg lebar.jpg'); /* Ganti dengan jalur gambar Anda */
+            background-size: cover; /* Membuat gambar menutupi seluruh area */
+            background-position: center; /* Memposisikan gambar di tengah */
+            height: 450px; /* Tinggi header */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Menyusun konten di tengah secara vertikal */
+            align-items: center; /* Menyusun konten di tengah secara horizontal */
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .nav-button {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            flex: 1;
+        }
+        .nav-button:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Website Pribadi Saya</h1>
+        <p>Mengenal lebih banyak tentang saya dan hobi saya</p>
+    </header>
+
+    <nav>
+        <a href="#tentang" class="nav-button">Tentang Saya</a>
+        <a href="#hobi" class="nav-button">Hobi</a>
+        <a href="#kontak" class="nav-button">Kontak</a>
+    </nav>
+
+    <main>
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Nama saya Adryan Nur Arif. Saya seorang mahasiswa yang sedang mendalami Teknik Informatika. Saya tertarik dengan teknologi dan memiliki passion di bidang IT.</p>
+        </section>
+
+        <section id="hobi">
+            <h2>Hobi</h2>
+            <p>Saya menikmati kegiatan-kegiatan seperti bermain sepak bola, badminton, dan membaca buku digital teknologi. Saya juga sedang belajar untuk meningkatkan kemampuan pemrograman saya.</p>
+        </section>
+
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <p>Email: adryannask@gmail.com</p>
+            <p>Telepon: +62895619421397</p>
+            <p>Instagram: <a href="https://instagram.com/iyannnsk" target="_blank">@iyannnsk</a></p>
+            <p>WhatsApp: <a href="https://wa.me/62895619421397" target="_blank">+62895619421397</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Website Pribadi Saya. Dibuat dengan cinta untuk belajar pemrograman.</p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+
+</body>
+</html>

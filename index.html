@@ -1,107 +1,214 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Website pribadi Adryan Nur Arif, mahasiswa Teknik Informatika yang tertarik pada teknologi.">
-    <title>Website Pribadi</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/jpeg" href="gambar/onana.jpg">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-image: url('gambar/gambar bg lebar.jpg'); /* Ganti dengan jalur gambar Anda */
-            background-size: cover; /* Membuat gambar menutupi seluruh area */
-            background-position: center; /* Memposisikan gambar di tengah */
-            height: 450px; /* Tinggi header */
-            color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center; /* Menyusun konten di tengah secara vertikal */
-            align-items: center; /* Menyusun konten di tengah secara horizontal */
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin: 20px 0;
-        }
-        .nav-button {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-            text-decoration: none;
-            flex: 1;
-        }
-        .nav-button:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        section {
-            padding: 20px;
-            background-color: white;
-            margin: 10px;
-            border-radius: 8px;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Seputar Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" lang="en" content="open source x/html and css templates">
+<meta name="author" content="mlp design">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<!--start wrapper-->
+<div id="wrapper">
 
-    <header>
-        <h1>Selamat Datang di Website Pribadi Saya</h1>
-        <p>Mengenal lebih banyak tentang saya dan hobi saya</p>
-    </header>
+<!--start body-->
+<div id="body">
 
-    <nav>
-        <a href="#tentang" class="nav-button">Tentang Saya</a>
-        <a href="#hobi" class="nav-button">Hobi</a>
-        <a href="#kontak" class="nav-button">Kontak</a>
-    </nav>
+<!--start header-->
+<div id="banner">
+<h1>Seputar<em>Website</em>1</h1>
+<p>Apa Itu Diksi</p>
+menu
+<label for="show-menu" class="responsive">&#9776;</label>
+<input type="checkbox" id="show-menu" role="button">
+<ul id="topnav">
+<li><a class="active">Home</a></li>
+<!-- <li><a href="#">Page 2</a></li>
+<li><a href="#">Page 3</a></li>
+<li><a href="#">Page 4</a></li>
+<li><a href="#">Page 5</a></li> -->
+</ul>
+<!-- end menu -->
+</div>
+<!--end of header-->
+	<!--start sidebar-->
+	<div id="sidebar">
+		<!-- <!-- <h2>About</h2>
+		<p>This template, updated after almost 9 years since the original release in 2008, is released under the <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution Non-Commercial License</a>. If you use it, you must retain the "Template Design by MLP Design" tag and link in place. You MAY NOT use the templates in adult or adult-oriented websites!</p>
+		<p>If you wish to use a template for commercial purposes or wish to remove the credit tag and link, please contact us.</p>
+		<h2>Categories</h2>
+		<ul>
+			<li><a href="#">Suspendisse potenti</a></li>
+			<li><a href="#">Proin sed pede</a></li>
+   			<li><a href="#">Maecenas ac nisi</a></li>
+   			<li><a href="#">Curabitur eget enim id</a></li>
+   			<li><a href="#">Nunc metus nisl dapibus</a></li>
+   			<li><a href="#">Fusce pellentesque odio sed</a></li> -->
+		<!-- </ul>
+		<h2>Archives</h2>
+		<ul>
+			<li><a href="#">2017-Sep</a></li>
+			<li><a href="#">2017-Aug</a></li>
+			<li><a href="#">2017-Jul</a></li>
+			<li><a href="#">2017-Jun</a></li>
+			<li><a href="#">2017-May</a></li>
 
-    <main>
-        <section id="tentang">
-            <h2>Tentang Saya</h2>
-            <p>Halo! Nama saya Adryan Nur Arif. Saya seorang mahasiswa yang sedang mendalami Teknik Informatika. Saya tertarik dengan teknologi dan memiliki passion di bidang IT.</p>
-        </section>
+		</ul>
+		<h2>Links</h2>
+		<ul>
+			<li><a href="http://twitter.com/mlpdesign">Follow me on Twitter</a></li>
+			<li><a href="http://www.mlpdesign.net">MLP Design</a></li> --> -->
+		</ul>		
+	</div>
+	<div class="clear"></div>
+	<!--end of sidebar-->
 
-        <section id="hobi">
-            <h2>Hobi</h2>
-            <p>Saya menikmati kegiatan-kegiatan seperti bermain sepak bola, badminton, dan membaca buku digital teknologi. Saya juga sedang belajar untuk meningkatkan kemampuan pemrograman saya.</p>
-        </section>
+	<!--start containter-->
+	<div id="container">
+			
+		<!--start content-->
+		<div id="content">
+			<!--post item-->
+			<div class="item">
+				<h1>Apa itu Diksi</h1>
+				<p>Pengertian Diksi
+					Dalam Kamus Besar Bahasa Indonesia (KBBI) pengertian diksi adalah pilihan kata yang tepat dan sesuai untuk mengungkapkan suatu gagasan atau ide. Kegiatan memilih kata dilakukan dalam rangka mengungkapkan maksud dan tujuan suatu gagasan.
+					"Diksi Adalah: Pengertian, Ciri, Syarat, Jenis Serta Contohnya" selengkapnya</p>
+				<p>Dikutip melalui buku Apresiasi Puisi (Teori dan Aplikasi) oleh Zherry Putria Yanti dkk. Berikut diantaranya.
+					1. Digunakan untuk membedakan makna yang sesuai dengan gagasan, situasi maupun nilai pendengar atau pembaca
+					2. Pemilihan katanya tepat, agar bisa mengungkapkan gagasan atau hal yang diamanatkan
+					3. Memakai kata-kata yang ada di masyarakat, sehingga katanya bisa dimengerti</p>
+				<p>Fungsi Diksi
+					Berdasarkan sumber buku yang sama, berikut fungsi diksi diantaranya.
+					1. Mengungkapkan wujud gagasan yang tepat, sehingga bisa menyenangkan pendengar atau pembaca
+					2. Melambangkan gagasan atau ide yang diungkapkan secara lisan maupun tulisan
+					3. Mewujudkan komunikasi yang efektif
+					4. Menciptakan atmosfir yang kondusif
+					5. Untuk mencegah perbedaan persepsi (tanggapan) atau interpretasi (penafsiran).</p>
+				<blockquote><p>Jenis-jenis Diksi
+					Dikutip dari jurnal Universitas PGRI Palangka Raya yang berjudul "Penggunaan Diksi Pada Wacana Sederhana" oleh Theresia Dessy Wardani, menurut Keraf (2010)
+					
+					1. Berdasarkan Makna
+					
+					a. Makna Denotatif
+					
+					Makna denotatif adalah makna kata yang sesuai dengan makna konsep asalnya, tanpa mengalami perubahan. Makna ini didasarkan atas penunjukkan yang lugas pada sesuatu bersifat objektif
+					
+					Contoh:
+					
+					· Jepang adalah negara yang terletak di Asia Timur
+					
+					· Kambing suka makan rumput
+					
+					· Candi Prambanan merupakan situs sejarah yang berlokasi di Sleman, DI Yogyakarta
+					
+					b. Makna Konotatif
+					
+					Makna yang mengandung arti bukan sebenarnya dan biasanya mengandung nilai-nilai emosional. Contohnya:
+					
+					· Setelah lulus kuliah, Abdul memilih untuk berprofesi sebagai kuli tinta. (Kuli tinta dapat diartikan sebagai penulis atau lebih spesifik sebagai wartawan dan bukan bermakna sebagai kuli yang sebenarnya.)
+					
+					2. Berdasarkan Konteks
+					
+					a. Kontek linguistik
+					
+					Konteks linguistik mencakup konteks hubungan antara kata dengan kata dalam frasa atau kalimat. Memuncul pengertian tertentu akibat perpaduan antara dua buah kata.
+					
+					Contoh: rumah ayah mengandung pengertian "milik", artinya rumah tersebut milik ayah
+					
+					b. Konteks Non Linguistik
+					
+					Konteks non linguistik mencakup dua hal, yaitu hubungan antara kata dan barang atau hal, dan hubungan antara bahasa dan masyarakat atau disebut juga konteks sosial.
+					
+					Contohnya: buaya darat itu telah melahap semua harta bendanya, dan orang itu telah melahap semua harta benda kekasihnya.
+					
+					3. Berdasarkan leksikal
+					
+					a. Sinonim
+					
+					Sinonim adalah kata-kata yang memiliki persamaan makna
+					
+					Contoh: pria dan laki-laki, pintar dan pandai.
+					
+					b. Antonim
+					
+					Antonim adalah dua buah kata yang maknanya berlawanan.
+					
+					Contoh: kaya dan miskin, jantan dan betina.
+					
+					c. Homofon adalah suatu kata yang memiliki makna dan ejaan yang berbeda dengan lafal yang sama.
+					
+					Contoh: bank, bang.
+					
+					d. Homograf adalah suatu makna yang memiliki makna dan lafal yang berbeda namun ejaannya sama.
+					
+					Contoh: apel (apel merujuk pada buah dan apel yang merujuk pada upacara pagi).
+					
+					e. Polisemi dan Homonimi
+					
+					Polisemi yaitu bentuk kata mempunyai beberapa makna. Sementara, homonimi berarti dua kata atau lebih namun memiliki bentuk yang sama. Perbedaan dari polisemi dan homonim yaitu, polisemi maknanya masih saling berhubungan (berdekatan), sedangkan homonim maknanya tidak berhubungan.
+					
+					Contoh Polisemi: kepala sekolah, kepala surat, kepala sakit (Kata kepala mempunyai makna lebih dari satu)
+					
+					Contoh Homonim: Bulan (yang ada di kalender atau bulan yang merupakan satelit bumi).
+					
+					Syarat-syarat Diksi
+					Kembali mengutip buku Apresiasi Puisi (Teori dan Aplikasi) yang ditulis Zherry Putri Yanti dkk. Berikut syarat-syarat penggunaan diksi.
+					
+					1. Ketepatan memilih kata ketika memilih menyampaikan suatu gagasan.
+					
+					2. Pengarang juga mempunyai kemampuan untuk membedakan tepat makna berdasarkan gagasan yang hendak disampaikan. Serta mempunyai memiliki kemampuan untuk menemukan bentuk pas dengan situasi nilai rasa para pembaca
+					
+					3. Dapat menguasai berbagai kosakata serta mampu memanfaatkan kata menjadi suatu kalimat yang jelas, mudah dimengerti dan lebih efektif
+					
+					Baca artikel detikedu, "Diksi Adalah: Pengertian, Ciri, Syarat, Jenis Serta Contohnya" selengkapnya https://www.detik.com/edu/detikpedia/d-6399998/diksi-adalah-pengertian-ciri-syarat-jenis-serta-contohnya.</p></blockquote>
+				<ul>
+					<!-- <li>Mauris in lacus</li>
+					<li>Sed ullamcorper bibendum libero</li>
+					<li>Morbi fringilla imperdiet lorem</li>
+					<li>In cursus mi posuere augue</li> -->
+				</ul>
+				<!-- <span>17 March 2017 @ 1:28 PM | <a href="#">0 Comment(s)</a> | Posted by <a href="#">webmasterneo</a></span>
+			</div> -->
+			<!--another post item-->
+			<div class="item">
+				<!-- <h1>Space fillers</h1>
+				<p>Donec non dui. Morbi fringilla imperdiet lorem. Fusce risus diam, rutrum eu, hendrerit et, accumsan non, neque. Fusce vitae pede ut massa sodales mattis. Nulla sed justo. Integer nec sem vel tellus tempor gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc faucibus. Nullam nulla ipsum, accumsan sed, tempus sed, adipiscing a, metus. Curabitur varius commodo eros.</p> -->
+				<!-- <span>17 March 2017 @ 6:24 PM | <a href="#">0 Comment(s)</a> | Posted by <a href="#">webmasterneo</a></span>
+			</div> -->
+			<!--end of another post item-->			
+		</div>
+		<!--end of content-->
 
-        <section id="kontak">
-            <h2>Kontak</h2>
-            <p>Email: adryannask@gmail.com</p>
-            <p>Telepon: +62895619421397</p>
-            <p>Instagram: <a href="https://instagram.com/iyannnsk" target="_blank">@iyannnsk</a></p>
-            <p>WhatsApp: <a href="https://wa.me/62895619421397" target="_blank">+62895619421397</a></p>
-        </section>
-    </main>
+	</div>
+	<!--end of container-->
 
-    <footer>
-        <p>&copy; <span id="year"></span> Website Pribadi Saya. Dibuat dengan cinta untuk belajar pemrograman.</p>
-        <script>
-            document.getElementById('year').textContent = new Date().getFullYear();
-        </script>
-    </footer>
+</div>
+<!--end of body-->
 
+	<!--start footer-->
+	<!-- <div id="footer"> -->
+		<!-- <span class="left">2017 &copy; Copyright <a href="#">Your Name</a>. All rights reserved.</span>
+		<span class="right"><a href="#">Contact</a> | <a href="#">Site Map</a></span>
+		<p class="show-footer">2017 &copy; Copyright <a href="#">Your Name</a>. All rights reserved.<br /><a href="#">Contact</a> | <a href="#">Site Map</a></p>
+	</div> -->
+	<!--end of footer-->	
+
+</div>
+<!--end of wrapper-->
+
+	<!--start credits-->
+	<!--//Under CC-NC 3.0, this portion must be left intact and must not be hidden.//-->
+	<!-- <div id="credits">
+	<span><a href="http://www.mlpdesign.net" title="CSS &amp; HTML by MLP Design.net">CSS &amp; HTML</a> by MLP Design<br />Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0</a>.</span>
+	</div> -->
+	<!--end of credits-->
+	
 </body>
+
 </html>
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">

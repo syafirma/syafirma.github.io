@@ -1,34 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nothing Here</title>
+    <title>404 - Halaman Tidak Ditemukan</title>
+      
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            font-size: 50px;
+            background-color: #f8f8f8;
+            font-family: Arial, Helvetica, sans-serif;
             color: #333;
+            text-align: center;
+            padding: 50px;a
         }
+
+        h1 {
+            font-size: 100px;
+            margin: 0;
+            color: #ff6347;
+        }
+
+        h2 {
+            font-size: 26px;
+            margin: 20px 0;
+        }
+
         p {
-            font-size: 20px;
-            color: #666;
+            font-size: 18px;
         }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .robot {
+            max-width: 300px;
+            margin: 0 auto 30px;
+        }
+
         a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6347;
+            color: white;
             text-decoration: none;
-            color: #007BFF;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
         }
+
         a:hover {
-            text-decoration: underline;
+            background-color: #ff4500;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .robot img {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .error-message {
+            font-size: 16px;
+            color: #777;
         }
     </style>
 </head>
 <body>
-    <h1>404 - Page Not Found</h1>
-    <p>Kembali Gada Apa Apa</p>
-    <p><a href="/">Kembali Ke Laman</a
+    <div class="container">
+        <h1>404</h1>
+        <h2>Oops! Halaman yang kamu cari tidak ditemukan.</h2>
+        <div class="robot">
+            <img src="gambar/el bola bali.jpg" alt="el bola bali" width="300">
+        </div>
+        <p>Sepertinya mas raspot terkepot kepot kami juga tersesat...<br>Tenang, kami akan segera membawanya kembali ke jalur yang benar!</p>
+        <p class="error-message">Kasian deh, kamu bisa kembali kok ke beranda kami dengan menggunakan navigasi di bawah.</p>
+        <a href="/">Kembali ke Beranda</a>
+
+        <audio autoplay loop>
+            <source src="audio/bola bali.mp3" type="audio/mpeg">
+            Your browser does not support the audio element. Try updating your browser or use a different one.
+        </audio>
+    </div>
+</body>
+</html>
